@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: var(--background-color);
+    color: #fff;
+    background-image: url(../images/bg-desktop.svg);
+    font-family: Open Sans , sans-serif;
+    font-weight: 400;
+    font-size: 66.5%;
+}
+
+header .logo{
+    padding: 3rem;
+}
+
+
+main .container{
+    padding: 3rem;
+    display: flex;
+}
+
+main .container img{
+    width: 50rem;
+}
+
+main .container .text{
+    padding: 4rem;
+    
+}
+
+main .container .text .title{
+    font-family: Poppins , sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+main .container .description{
+    font-size: 1rem;
+    padding-top: 3rem;
+}
+
+
+main .container .text .btn{
+    display: flex;
+}
+
+main .container .text .btn{
+    padding:1.5rem 0;
+    margin-top: 3rem;
+    width: 10rem;
+    height: 3rem;
+    background-color:#fff ;
+    border-radius: 3rem;
+    font-family: Poppins , sans-serif;;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.container .text .btn:hover{
+    color: #fff;
+    background-color: var(--button);
+}
+
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3rem;
+}
+
+.contact .social a{
+    padding-left: 10px;
+
+}
+
+.contact .social i{
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 60%;
+    transition: 0.5s;
+}
+
+.contact .social i:hover{
+    color: var(--button);
+    border-color: var(--button);
+}

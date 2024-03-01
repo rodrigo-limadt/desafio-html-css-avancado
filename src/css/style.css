@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body{
-    background-color: var(--background-color);
     color: #fff;
-    background-image: url(../images/bg-desktop.svg);
+    background: var(--background-color) url(../images/bg-desktop.svg) no-repeat ;
+    background-size: cover;
     font-family: Open Sans , sans-serif;
     font-weight: 400;
     font-size: 66.5%;
@@ -74,8 +74,9 @@ main .container .text .btn{
     padding: 3rem;
 }
 
+
 .contact .social a{
-    padding-left: 10px;
+    padding-right: 1rem;
 
 }
 

@@ -1,9 +1,10 @@
-@media(max-width:375px){
+@media(max-width:500px){
     body{
+    background: var(--background-color) url(../images/bg-mobile.svg) no-repeat;
+    background-size: cover;
+}
+    
         
-        background-image: url(../images/bg-mobile.svg);
-        
-    }
 
     header .logo{
         max-width: 25vh;
@@ -35,10 +36,21 @@
     
 
     main .container .text .btn{
+        width: 12rem;
         font-size: 12px;
-    }        
+        
+    }  
+
+    
+    
+
+
     .contact{
         display: flex;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        
     }
+
+    
 }

@@ -83,7 +83,7 @@ main .container .text .btn{
 .contact .social i{
     color: #fff;
     font-size: 1rem;
-    border-radius: 60%;
+    border-radius: 50%;
     transition: 0.5s;
 }
 

@@ -1,56 +1,48 @@
-@media(max-width:500px){
-    body{
-    background: var(--background-color) url(../images/bg-mobile.svg) no-repeat;
-    background-size: cover;
-}
-    
-        
+@media(max-width:500px) {
+    body {
+        background: var(--background-color) url(../images/bg-mobile.svg) no-repeat;
+    }
 
-    header .logo{
+    header .logo {
         max-width: 25vh;
-        
-}
+    }
 
     main .container{
-        padding-top: 10px;
+        padding-top: 5px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 
-    main .container .illustration{
-    align-items: center;
-    max-width: 30vh;
-}
-
-    main .container .text .title{ 
-    font-size: 1rem;
-    
-}
-
-    main .container .text .description{
-        font-size: 12px;
-        padding-top: 1rem ;
+    main .container .illustration {
+        max-width: 35vh;
     }
 
-    
+    main .container .text .title {
+        font-size: 20px;
+        width: 250px;
+    }
 
-    main .container .text .btn{
-        width: 12rem;
+    main .container .text .description {
+        font-size: 13.5px;
+        padding-top: 1rem;
+    }
+
+    main .container .text .btn {
+        width: 200px;
         font-size: 12px;
-        
-    }  
+        margin-left: 30px;
+    }
 
-    
-    
-
-
-    .contact{
+    .contact {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        
+        justify-content: center;
+        height: 1px;
+        margin-left: 3rem;
     }
 
-    
+
 }

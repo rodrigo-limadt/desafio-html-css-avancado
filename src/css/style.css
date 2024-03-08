@@ -1,93 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-body{
+body {
     color: #fff;
-    background: var(--background-color) url(../images/bg-desktop.svg) no-repeat ;
+    background: var(--background-color) url(../images/bg-desktop.svg) no-repeat;
     background-size: cover;
-    font-family: Open Sans , sans-serif;
+    font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 66.5%;
+    max-width: 1440px;
 }
 
-header .logo{
+header .logo {
     padding: 3rem;
 }
 
 
-main .container{
-    padding: 3rem;
+main .container {
+    padding-left: 3rem;
     display: flex;
 }
 
-main .container img{
+main .container .illustration {
     width: 50rem;
 }
 
-main .container .text{
+main .container .text {
     padding: 4rem;
-    
+
 }
 
-main .container .text .title{
-    font-family: Poppins , sans-serif;
+main .container .text .title {
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     font-size: 2rem;
 }
 
-main .container .description{
+main .container .description {
     font-size: 1rem;
     padding-top: 3rem;
 }
 
 
-main .container .text .btn{
+main .container .text .btn {
     display: flex;
 }
 
-main .container .text .btn{
-    padding:1.5rem 0;
+main .container .text .btn {
+    padding: 1.5rem 0;
     margin-top: 3rem;
-    width: 10rem;
+    width: 12rem;
     height: 3rem;
-    background-color:#fff ;
+    background-color: #fff;
     border-radius: 3rem;
-    font-family: Poppins , sans-serif;;
+    box-shadow: 10px #fff;
+    font-family: Poppins, sans-serif;
+    ;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
 }
 
 
-.container .text .btn:hover{
+.container .text .btn:hover {
     color: #fff;
     background-color: var(--button);
 }
 
 
 
-.social{
+.social {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: end;
     padding: 3rem;
 }
 
 
-.contact .social a{
-    padding-right: 1rem;
-
+.contact .social .icon {
+    margin-left: 1rem;
 }
 
-.contact .social i{
+.contact .social i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     font-size: 1rem;
-    border-radius: 50%;
     transition: 0.5s;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 30px 0px 0px;
 }
 
-.contact .social i:hover{
+.contact .social i:hover {
     color: var(--button);
     border-color: var(--button);
 }
